@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FakeHunter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="300logo.png" alt="FakeHunter Logo" class="logo">
+    </header>
+    <main>
+        <div id="status-section">
+            <H1>"Știri" false: <span id="fakeCount">0</span></H1>
+            <div id="siteStatus" class="site-status-green">
+                <span class="checkmark"></span>
+            </div>
+            <H2 id="detectorStatus">Detector Activat</H2>
+            <label class="switch">
+                <input type="checkbox" id="extensionToggle">
+                <span class="slider round"></span>
+            </label>
+            <div>
+                <br>
+                <center><button id="sourceButton" style="display: none;">Sursa Verificării</button></center>
+            </div>
+            <div>
+                <br>
+                <center><button id="detectButon" style="display: none;">Sursa Verificării</button></center>
+            </div>
+            <center><button id="reportFakeButton">Semnalează un fals</button></center>
+        </div>
+    </main>
+    <footer>
+        <center> <p>Coming Soon</p> </center>
+    </footer>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "action": {
+    "default_icon": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "description": "Identifică și alertează utilizatorul despre posibilele site-uri de fake news.",
+  "developer": {
+    "name": "a19dd560-ff9b-445f-9d5d-52687e581216"
+  },
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "icons": {
+    "128": "icon128.png",
+    "16": "icon16.png",
+    "48": "icon48.png"
+  },
+  "manifest_version": 3,
+  "name": "FakeHunter",
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "update_url": "https://extension-updates.opera.com/api/omaha/update/",
+  "version": "1.0.3"
+}
